@@ -7,11 +7,11 @@ import mainimg4 from '../image/4.png'
 function Main(props) {
     return (
         <div>
-            <img src={mainimg1} className='main'/>
-            <img src={mainimg2} className='main'/>
+            <img src={mainimg1} className='main' width='300' height='300'/>
+            <img src={mainimg2} className='main' width='300' height='300'/>
             <br/><br/>
-            <img src={mainimg3} className='main'/>
-            <img src={mainimg4} className='main'/>
+            <img src={mainimg3} className='main' width='300' height='300'/>
+            <img src={mainimg4} className='main' width='300' height='300'/>
 
         </div>
     );
