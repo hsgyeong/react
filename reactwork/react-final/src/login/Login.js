@@ -1,9 +1,16 @@
 import React from 'react';
+import Logout from './Logout';
+import LoginForm from './LoginForm';
 
 function Login(props) {
+
+    let loginok=localStorage.loginok;
+
     return (
         <div>
-            <h1>Login</h1>
+            {
+                loginok==null?<LoginForm/>:<Logout/>
+            }
         </div>
     );
 }
